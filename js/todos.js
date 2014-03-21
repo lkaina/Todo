@@ -7,8 +7,8 @@ $(function() {
   Parse.$ = jQuery;
 
   // Initialize Parse with your Parse application javascript keys
-  Parse.initialize("your-application-id",
-                   "your-javascript-key");
+  Parse.initialize("054wtpQbuRXuzIVeY2ajbApfzZcqB5L7YJKPSNYQ",
+                   "DDcRkwF73XLntCok4VtcvBXusSIXP6iG7ItTHl50");
 
   // Todo Model
   // ----------
@@ -378,7 +378,7 @@ $(function() {
 
   var AppRouter = Parse.Router.extend({
     routes: {
-      "all": "all",
+      "login  ": "all",
       "active": "active",
       "completed": "completed"
     },

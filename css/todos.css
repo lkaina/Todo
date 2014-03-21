@@ -467,4 +467,16 @@ label[for='toggle-all'] {
 #credits a {
     color: #888;
 }
-
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+}
+tr td:nth-child(2) {
+    text-align: center;
+}
+#orderTable img {
+    height: 100px;
+    width: 150px;
+}
